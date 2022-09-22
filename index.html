@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">       
+        <title>Form</title>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="form">
+            <form action="" method="post" name="myform"  autocomplete="off" onsubmit="return validateform()">
+                <div id="form_control">
+                    <label for="name">
+                        Name
+                        <input type="text"  name="uname" class="uname"><br>
+                    </label>
+                    <span id="name_div">Name not found</span>
+                </div>
+                <div id="form_control">
+                    <div class="gender">
+                        <span>Gender</span>
+                        <label for="male">
+                            <input type="radio" name="gender">
+                            Male
+                        </label>
+                        <label for="Female">
+                            <input type="radio" name="gender">
+                            Female
+                        </label>
+                        <label for="others">
+                            <input type="radio" name="gender">
+                            Others
+                        </label>
+                    </div><br>
+                    <span id="gender_div">Gender not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="address">
+                        <span>Address</span>
+                        <textarea name="address" rows="2" cols="1" class="address"></textarea><br>
+                    </label>
+                    <span id="address_div">Address not found</span>
+                </div>
+                <div class="form_control">
+                    <label for="dob">
+                        Date of Birth
+                        <input type="date" name="date">
+                    </label><br>
+                    <span id="date_div"></span>
+                </div>
+                <div id="form_control">
+                    <div class="age">
+                        <span>Age</span>                
+                        <label for="18-24">
+                            <input type="radio" name="age" value="18-24">
+                            18-24
+                        </label>          
+                        <label for="24-35">
+                            <input type="radio" name="age" value="24-35">
+                            24-35
+                        </label>               
+                        <label for="35-50">
+                            <input type="radio" name="age" value="35-50">
+                            35-50
+                        </label>                
+                        <label for="Above 50">
+                            <input type="radio" name="age" value="Above 50">
+                            Above 50
+                        </label>
+                    </div><br>
+                    <span id="age_div">Age not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="mail">
+                        Email
+                        <input type="email" name="email" class="email">
+                    </label><br>
+                    <span id="email_div">Email not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="password">
+                        Password
+                        <input type="password" name="password" class="password">
+                    </label><br>
+                    <span id="pswd_div">Password not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="number">
+                        Phone No.
+                        <input type="number" name="number" min="1" max="10" class="number">
+                    </label><br>
+                    <span id="number_div">Number not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="tel">
+                        Telephone No.
+                        <input type="tel" name="telephone" class="telephone">
+                    </label><br>
+                    <span id="tel_div">Number not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="qualification"> Qualification
+                        <select class="qualification" name="study">
+                            <option><!--Select your Qualification--></option>
+                            <option>Under Graduate</option>
+                            <option>Graduate</option>
+                            <option>Post Graduate</option>
+                            <option>Others</option>
+                        </select>
+                    </label><br>
+                    <span id="qualify_div">Qualification not found</span>
+                </div>
+                <div id="form_control">
+                    <div class="check">
+                        <span>Experienced</span>
+                        <label for="yes">
+                            <input type="radio" name="experience" value="Yes">
+                            Yes
+                        </label>
+                        <label for="no">
+                            <input type="radio" name="experience" value="No">
+                            No
+                        </label>
+                    </div>
+                </div>
+                <div id="form_control">
+                    <label for="range">
+                        Experience Range
+                        <input type="range" name="range" min="1" max="10">
+                    </label><br>
+                </div>
+                <div id="form_control">
+                    <label for="month">
+                        Joining Month
+                        <input type="month" name="month" class="month">
+                    </label><br>
+                    <span id="required_div">Month not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="week">
+                        Joining Week
+                        <input type="week" name="week" class="week">
+                    </label><br>
+                    <span id="week_div">Week not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="datetime">
+                        Date time
+                        <input type="datetime" name="datetime" class="datetime">
+                    </label><br>
+                    <span id="datetime_div">Datetime not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="local">
+                        Local Date Time
+                        <input type="datetime-local" name="localdatetime" class="localdatetime">
+                    </label><br>
+                    <span id="local_div">Local Datetime not found</span>
+                </div>
+                <div id="form_control">
+                    <div class="proof">
+                        <span>Id Proof</span>
+                        <label for="aadhar">
+                            <input type="checkbox" name="proof">
+                            Aadhar
+                        </label>
+                        <label for="license">
+                            <input type="checkbox" name="proof">
+                            License
+                        </label>
+                        <label for="passport">
+                            <input type="checkbox" name="proof">
+                            Passport
+                        </label>
+                        <label for="pancard">
+                            <input type="checkbox" name="proof">
+                            Pan Card
+                        </label>
+                    </div>
+                    <span id="proof_div">Id proof not found</span>
+                </div>
+                <div id="form_control">
+                    <label for="upload">
+                        <div class="upload">
+                            Upload valid Id proof<br>
+                            <input type="file" name="uploadfile" class="uploadfile">
+                        </div><br>
+                    </label>
+                    <span id="uploadfile_div">File not found</span>
+                </div>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>      
+    </body>
+   
+</html>
