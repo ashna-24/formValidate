@@ -15,7 +15,7 @@ body{
     border-right: 2px;
     border-radius: 8px;
     border: transparent;
-    width: 540px;
+    width: 350px;
     background-color: rgba(109, 101, 101, 0.3);
     margin: 80px 0px 100px 423px;
     box-shadow: 0 0 15px rgb(97, 95, 95);
@@ -25,7 +25,7 @@ body{
 
 input{
     padding: 5px;
-    margin-bottom: 5px;
+    margin: 10px 0px;
     border-radius: 5px;
     background-color: rgb(231, 226, 220);
 }
@@ -33,19 +33,10 @@ input{
 input[type=text] {
     border-radius: 4px;
     width: 329px;
-    margin-left: 145px;
-}
-
-.gender span{
-    margin-right:122px;
 }
 
 .gender label{
-    margin-left: 15px;
-}
-
-.address{
-    margin: -18px 0px 10px 186px;
+    margin-right: 15px;
 }
 
 textarea{
@@ -57,7 +48,6 @@ textarea{
 
 input[type=date]{
     border-radius: 4px;
-    margin:10px 0px 10px 100px;
     width: 325px;
 }
 
@@ -74,7 +64,7 @@ input[type=date]{
 }
 
 .age label, .check label{
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 input[type=radio]{
@@ -83,31 +73,26 @@ input[type=radio]{
 
 input[type=email]{
     border-radius: 4px;
-    margin: 10px 0px 10px 145px;
     width: 330px;
 }
 
 input[type=password]{
     border-radius: 4px;
     width: 333px;
-    margin: 10px 0px 10px 120px;
 }
 
 input[type=number]{
     border-radius: 4px;
-    margin: 0px 0px 10px 112px;
     width: 333px;
 }    
 
 input[type=tel]{
     border-radius: 4px;
-    margin: 0px 0px 10px 86px;
     width: 332px;
 }
 
 .qualification{
     padding: 5px;
-    margin: 10px 0px 10px 98px;
     background-color: rgb(231, 226, 220);
     width: 342px;
     border-radius: 4px;
@@ -115,31 +100,26 @@ input[type=tel]{
 }
 
 input[type=range]{
-    margin: 10px 0px 10px 68px;
     accent-color: rgb(32, 80, 238);
 }
 
 input[type=month]{
     border-radius: 4px;
-    margin:10px 0px 0px 89px;
     width: 320px;    
 }
 
 input[type=week]{
    border-radius: 4px;
-    margin:15px 0px 0px 95px;
     width: 320px;    
 } 
 
 input[type=datetime-local]{
    border-radius: 4px;
-    margin:10px 0px 0px 75px;
     width: 318px;    
 }    
 
 input[type=datetime]{
     border-radius: 4px;
-    margin:10px 0px 10px 119px;
     width:320px;
 }
 
@@ -148,11 +128,7 @@ input[type=datetime]{
 }
 
 .proof label{
-    margin-left: 8px;
-}
-
-.proof input{
-    margin-right: 10px;
+    margin-right:15px;
 }
 
 .proof span{
@@ -170,7 +146,6 @@ input[type=datetime]{
 }
 
 .upload input{
-    margin:50px 110px;
     background-color: transparent;
 }
 
@@ -178,13 +153,13 @@ input[type=file]{
     padding: 10px;
 }
 
-input[type=submit]{
+input[type=submit], input[type=reset]{
     border-top: 2px;
     border-left: 2px;
     border-bottom:2px;
     border-right: 2px;
     border-radius: 5px;
-    width:100%;
+    width:  173px;
     margin-top: 20px;
     padding: 15px;
     border: transparent;
@@ -193,14 +168,14 @@ input[type=submit]{
     background-color: rgb(6, 110, 247);
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover, input[type=reset]:hover{
     background-color: rgb(0, 26, 255);
 }
 
 #name_div, #address_div, #email_div, #tel_div {
     margin:10px 0px 5px 200px;
     color: red;
-    visibility:hidden;
+    visibility:hidden;   
 }
 
 #qualify_div{
