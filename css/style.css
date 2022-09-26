@@ -172,63 +172,23 @@ input[type=submit]:hover, input[type=reset]:hover{
     background-color: rgb(0, 26, 255);
 }
 
-#name_div, #address_div, #email_div, #tel_div {
-    margin:10px 0px 5px 200px;
+#name_div, 
+#address_div, 
+#email_div, 
+#tel_div,
+#qualify_div,
+#required_div,
+#week_div, 
+#local_div,
+#age_div,
+#proof_div,
+#gender_div,
+#date_div,
+#pswd_div, 
+#datetime_div, 
+#number_div,
+#uploadfile_div{
     color: red;
     visibility:hidden;   
 }
 
-#qualify_div{
-    margin:10px 0px 5px 198px;
-    color:red;
-    visibility:hidden;
-}
-
-#required_div, #week_div, #local_div{
-    position: absolute;
-    margin:-34px 0px 0px 250px;
-    color: red;
-    visibility:hidden;
-}
-
-#age_div{
-    color:red;
-    margin:0px 0px 0px 205px;
-    visibility:hidden;
-}
-
-#gender_div{
-    color:red;
-    margin:0px 0px 0px 205px;
-    visibility:hidden;
-}
-
-#proof_div{
-    color:red;
-    margin:0px 0px 0px 200px;
-    visibility:hidden;
-}
-
-#date_div{
-    margin:0px 0px 5px 80px;
-    color: red;
-    visibility:hidden;
-}
-
-#pswd_div, #datetime_div{
-    margin: 0px 0px 5px 195px;
-    color: red;
-    visibility:hidden;
-}
-
-#number_div{
-    margin: 0px 0px 5px 198px;
-    color: red;
-    visibility:hidden;
-}
-
-#uploadfile_div{
-    margin: 0px 0px 5px 195px;
-    color: red;
-    visibility:hidden;
-}
