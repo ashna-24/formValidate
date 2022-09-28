@@ -181,7 +181,6 @@ input[type=submit]:hover, input[type=reset]:hover{
 #week_div, 
 #local_div,
 #age_div,
-#proof_div,
 #gender_div,
 #date_div,
 #pswd_div, 
@@ -191,4 +190,3 @@ input[type=submit]:hover, input[type=reset]:hover{
     color: red;
     visibility:hidden;   
 }
-
