@@ -58,7 +58,7 @@ function genderValidate(gender){
      errorValidate('gender_div');  
      return false;
    }else{
-      successValidate('gender_div')
+      successValidate('gender_div');
       return true;
    }
 }
