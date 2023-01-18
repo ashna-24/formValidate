@@ -34,8 +34,7 @@ function successValidate(id){
   document.getElementById(id).innerHTML="";
 }
 
-function nameValidate(uname){
-   
+function nameValidate(uname){   
    if(uname.value==""){
      errorValidate('name_div');
      uname.style.border="1px solid red";  
